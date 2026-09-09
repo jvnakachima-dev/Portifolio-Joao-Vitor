@@ -1,0 +1,48 @@
+:root {
+  --color-background: #0a0612;
+  --color-surface: #10091c;
+  --color-primary: #8b3dff;
+  --color-primary-light: #b978ff;
+  --color-text: #f5f2fa;
+  --color-text-muted: #9a91a7;
+  --color-border: #2a2135;
+
+  --font-body: Arial, sans-serif;
+  --container-width: 1200px;
+
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  --radius-md: 0.5rem;
+  --transition-base: 180ms ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
