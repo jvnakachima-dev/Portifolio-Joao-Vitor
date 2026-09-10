@@ -7,7 +7,8 @@
   --color-text-muted: #9a91a7;
   --color-border: #2a2135;
 
-  --font-body: Arial, sans-serif;
+  --font-body: 'Inter', Arial, sans-serif;
+  --font-heading: 'Space Grotesk', Arial, sans-serif;
   --container-width: 1200px;
 
   --space-2: 0.5rem;

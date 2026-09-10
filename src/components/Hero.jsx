@@ -4,7 +4,8 @@ function Hero() {
       <p className="hero__eyebrow">✦ Web Design & Front-End</p>
 
       <h1 id="hero-title">
-        Seu negócio merece um site tão profissional quanto ele é.
+        Seu negócio merece um site{' '}
+        <span>tão profissional</span> quanto ele é.
       </h1>
 
       <p className="hero__description">

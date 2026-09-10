@@ -170,6 +170,7 @@
   max-width: 12ch;
   margin: 0;
   font-size: clamp(2.75rem, 7vw, 5.75rem);
+  font-family: var(--font-heading);
   line-height: 0.98;
   letter-spacing: -0.055em;
 }
@@ -234,4 +235,16 @@
   .button {
     width: 100%;
   }
+}
+
+.hero h1 span {
+  color: var(--color-primary-light);
+  background: linear-gradient(
+    90deg,
+    var(--color-primary-light),
+    var(--color-primary)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
