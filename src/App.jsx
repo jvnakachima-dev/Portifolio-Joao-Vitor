@@ -1,6 +1,9 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/hero'
+import Intro from './components/Intro'
+import Services from './components/Services'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -11,9 +14,10 @@ function App() {
 
       <main>
         <Hero />
+        <Intro />
+        <Services />
+        <Projects />
 
-        <section id="projetos" aria-label="Projetos" />
-        <section id="servicos" aria-label="Serviços" />
         <section id="sobre" aria-label="Sobre João Vitor" />
         <section id="contato" aria-label="Contato" />
       </main>
